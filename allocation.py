@@ -1,9 +1,9 @@
 dev_Database = {
-    'host': 'pgresqljiradev.dai.netdai.com',
-    'database': 'allocation',
-    'port' : '5432',
-    'confluenceUrl': 'https://confluencedev1.daicompanies.com',
-    'jiraUrl': {'server': 'https://jiradev1.daicompanies.com/'}
+    'host': '',
+    'database': '',
+    'port' : '',
+    'confluenceUrl': '',
+    'jiraUrl': {''}
 }
 
 import pandas as pd
@@ -15,8 +15,8 @@ pd.set_option('display.max_rows', 100)
 pd.set_option('display.max_columns', 10)
 #pd.set_option('display.width', 1000)
 
-DbName = 'tom.le'
-DbPass = 'Whatever1!'
+DbName = ''
+DbPass = ''
 #enviroment Setup
 def envi_setup(enviDB):
     global host
